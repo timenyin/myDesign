@@ -51,6 +51,7 @@
       href="../doc/software_enginer_kunu.pdf"
       title="Harmony - CV/Resume & Personal Portfolio Harmony"
     />
+    <script src="https://kit.fontawesome.com/37e4e6b527.js" crossorigin="anonymous"></script>
   </head>
 
   <body class="page light-skin">
@@ -205,7 +206,7 @@
               class="scrolla-element-anim-1"
               title="Twitter"
             >
-              <i class="fab fa-twitter"></i>
+            <i aria-hidden="true" class="fa-brands fa-x-twitter"></i>
             </a>
 
             <a
@@ -433,33 +434,37 @@
           </div>
         </section>
 
-        <div class="container mb-4 mt-5">
+        <div class="container-fluid mb-4 mt-5">
           <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="col-lg-7 mb-4 mb-lg-0">
               <div class="mx-auto text-center">
                 <div class="img">
                     <a
-                      href="../images/works/Data Model Diagram.png"
+                      href="../images/works/Flow-Layout creativeHub.png"
                       class="has-popup-image"
                     >
                       <img
-                        src="../images/works/Data Model Diagram.png"
+                        src="../images/works/Flow-Layout creativeHub.png"
                         alt="image"
                       />
                     </a>
                   </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="ps-lg-6 ps-xl-10 w-lg-90">
                 <div
                   class="p-title scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                Database Structure Explanation
+                CreativeHub Worthrough Explanation
                 </div>
-                <h6 class="" style="font-size: 16px;">The database structure consists of multiple interrelated tables to efficiently manage tasks, teams, projects, and associated data.
-                     Here's an overview based on the provided schema:</h6>
+                <h6 class="" style="font-size: 16px;">
+                  <p>CreativeHub is your go-to platform for unleashing creativity and boosting your business online.
+                    <br> Explore an array of practical online resources on digital marketing, video animation, writing, copywriting, tech, graphics, design, programming, 
+                    and more! Just like CreativeHub.
+                  </p>
+                </h6>
                 <div id="accordion" class="accordion-style">
                   <div class="card">
                     <div class="card-header" id="headingOne">
@@ -471,7 +476,7 @@
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                        Task & Task Assignment  Table 
+                        Market Research and Planning:
                         </button>
                       </h5>
                     </div>
@@ -483,10 +488,11 @@
                       style=""
                     >
                       <div class="card-body position-relative">
-                       <p>Contains task details such as title, description, status, priority, tags, dates, and points.</p>
-                       <p>Connected to projects, users (author and assignee), and other related entities.</p>
-                        <p>Stores file information related to tasks, such as file URLs and names.</p> 
-                         <p>Links to tasks and users who uploaded the files.</p>   
+                        <ul>
+                          <li>Understand the target audience and their needs.</li>
+                          <li>Analyze competitors in the freelance services marketplace.</li>
+                          <li>Define your unique selling proposition (USP) and differentiation strategy.</li>
+                      </ul>
                       </div>
 
                     </div>
@@ -501,7 +507,7 @@
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                        Comment & Task Assignment Table:
+                        Platform Design and User Experience (UX):
                         </button>
                       </h5>
                     </div>
@@ -512,8 +518,12 @@
                       data-bs-parent="#accordion"
                     >
                       <div class="card-body position-relative">
-                        <p>Maintains task-related comments, capturing user input and collaboration.</p>
-                        <p>Tracks task assignments, linking tasks to users.</p>
+                        <ul>
+                          <li>Design an intuitive and user-friendly interface.</li>
+                          <li>Ensure seamless navigation and accessibility across devices.</li>
+                          <li>Prioritize clear communication channels between buyers and sellers.</li>
+                          <li>Implement features for easy project management, payment processing, and dispute resolution.</li>
+                      </ul>
                       </div>
                     </div>
                   </div>
@@ -527,7 +537,7 @@
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                        User & Team Table
+                        Feature Development:
                         </button>
                       </h5>
                     </div>
@@ -538,10 +548,13 @@
                       data-bs-parent="#accordion"
                     >
                       <div class="card-body position-relative">
-                       <p>Stores user information, including profile details and Cognito-based authentication.</p>
-                       <p>Associates users with teams.</p>
-                       <p>Defines teams with fields for team name, product owner, and project manager.</p>
-                       <p>Connects teams with projects and tasks.</p>
+                        <ul>
+                          <li>Develop user registration and profile creation functionalities.</li>
+                          <li>Create a robust search and filtering system to help users find services easily.</li>
+                          <li>Implement a secure messaging system for communication between buyers and sellers.</li>
+                          <li>Incorporate a rating and review system to build trust and credibility.</li>
+                          <li>Enable secure payment gateways for seamless transactions.</li>
+                      </ul>
                       </div>
                     </div>
                   </div>
@@ -555,7 +568,7 @@
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                        Project & Project Team Table
+                        Freelancer Onboarding and Verification
                         </button>
                       </h5>
                     </div>
@@ -566,13 +579,108 @@
                       data-bs-parent="#accordion"
                     >
                       <div class="card-body position-relative">
-                        <p>Houses project-level data, including names, descriptions, and timelines.</p>
-                        <p>Serves as a foundation for organizing tasks and teams.</p>
-                        <p>Maps projects to teams, facilitating collaboration.</p>
+                        <ul>
+                          <li>Establish a streamlined onboarding process for freelancers.</li>
+                          <li>Implement verification mechanisms to ensure the authenticity of freelancers' skills and qualifications.</li>
+                          <li>Provide resources and guidelines for freelancers to optimize their profiles and offerings.</li>
+                      </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive"
+                          aria-expanded="false"
+                          aria-controls="collapseFive"
+                        >
+                        Buyer Engagement and Retention
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseFive"
+                      class="collapse"
+                      aria-labelledby="headingFive"
+                      data-bs-parent="#accordion"
+                    >
+                      <div class="card-body position-relative">
+                        <ul>
+                          <li>Offer promotional deals and incentives for first-time buyers.</li>
+                          <li>Implement a personalized recommendation system based on user preferences and past interactions.</li>
+                          <li>Provide excellent customer support to address any issues or concerns promptly.</li>
+                      </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingSix">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSix"
+                          aria-expanded="false"
+                          aria-controls="collapseSix"
+                        >
+                        SEO and Marketing Strategy
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseSix"
+                      class="collapse"
+                      aria-labelledby="headingSix"
+                      data-bs-parent="#accordion"
+                    >
+                      <div class="card-body position-relative">
+                        <ul>
+                          <li>Optimize the website for search engines to improve visibility and organic traffic.</li>
+                          <li>Develop a content marketing strategy to attract and engage users.</li>
+                          <li>Utilize social media platforms and targeted advertising to reach potential buyers and sellers.</li>
+                      </ul>
                       </div>
                     </div>
                   </div>
                   
+
+                  <div class="card">
+                    <div class="card-header" id="headingSeven">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSeven"
+                          aria-expanded="false"
+                          aria-controls="collapseSeven"
+                        >
+                        List of Pages of the frontend part 
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseSeven"
+                      class="collapse"
+                      aria-labelledby="headingSeven"
+                      data-bs-parent="#accordion"
+                    >
+                      <div class="card-body position-relative">
+                        <p>
+                          account_settings.php, become-seller.php, buying_order.php, buyingon.php, cart.php, cart_payment_options.php, cart_payment.php,
+                           category.php, change_pass.php, checkout.php, consumer&services.php, contact.php, dashboard.php, favorites.php, forgot-password.php, 
+                           home.php, index.php, login.php, manger_contact.php, main-category.php, my_refrrals.php, order_conversation.php, order_details.php, 
+                           profile_settings.php, purchases.php, revenu.php, search.php, setting_order.php, settings.php, user.php, user_home.php, partnership.php,
+                            privicy-policy.php, terms-of-service.php, property-clams.php, help-&-support.php, trust&saftey.php, sellingon.php, blog.php, invent_friend.php, 
+                            our-business-solutions.php, creativehub-pro.php, creativehub-certified.php, partnerships.php, signup.php, signin.php, single-blog.php, error-404.html
+                      </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -594,18 +702,16 @@
                   class="text scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  <p>
-                    The Project Manager system successfully delivers a foundational dashboard with a robust database structure,
-                    allowing users to view project details, tasks, and assignments seamlessly. The integration of advanced technologies such as Next.js,
-                     Tailwind CSS, PostgreSQL, and AWS services ensures a scalable and secure platform. Despite current limitations, such as restricted
-                      user interaction with projects and tasks, the system establishes a strong baseline for further enhancements and demonstrates its
-                       potential to become a fully-fledged project management tool.
-                  </p>
-                 <p>Looking ahead, the focus will be on enabling users to perform CRUD operations on projects and tasks, providing a more interactive and dynamic
-                     experience. Additionally, advanced features such as real-time collaboration, automated notifications, and comprehensive analytics will be
-                      introduced to further enhance usability. The initial challenges with AWS integration have strengthened the system’s infrastructure, 
-                      paving the way for a future-proof platform that can accommodate growing user needs and industry demands.
-                    </p>
+                <p>
+                  The result is to create a very robust front-end design with CSS frameworks and the use of PHP scripts to make the backend work easily. 
+                  This approach ensures a seamless and efficient development process, allowing for quick iterations and a user-friendly interface. 
+                  The combination of modern CSS frameworks and PHP scripting provides a solid foundation for building scalable and maintainable web applications.
+              </p>
+              <p>
+                  Looking ahead, the focus will be on creating the backend with all the required functionality and deploying it for users to make use of it.
+                   This includes implementing advanced features such as user authentication, database management, and API integrations. The goal is to deliver a 
+                   fully functional platform that meets user needs and industry standards, ensuring a smooth and reliable experience for all users.
+              </p>
                 </div>
               </div>
               <div class="blog-more-link magrin-top">
@@ -618,7 +724,7 @@
                   </a>
                   <a
                   target="_blank"
-                  href="https://github.com/timenyin/CreativeHub_Frontend.git"
+                  href="https://github.com/timenyin/CreativeHub_ReadMe.git"
                   class="btn scrolla-element-anim-1 scroll-animate my-1"
                   data-animate="active"
                   >Git Documentation</a>
@@ -633,7 +739,7 @@
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="h-titles h-navs">
-                  <a href="../portfolio/">
+                  <a href="project-manger.html">
                     <span
                       class="nav-arrow scrolla-element-anim-1 scroll-animate"
                       data-animate="active"
@@ -645,7 +751,7 @@
                       data-splitting="chars"
                       data-animate="active"
                     >
-                      Harmony2k Blog+
+                      Project Manger
                     </span>
                   </a>
                 </div>
@@ -671,7 +777,7 @@
                   target="blank"
                   title="Twitter"
                 >
-                  <i class="fab fa-twitter"></i>
+                <i aria-hidden="true" class="fa-brands fa-x-twitter"></i>
                 </a>
 
                 <a
